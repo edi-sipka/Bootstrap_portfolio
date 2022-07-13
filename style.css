@@ -25,6 +25,9 @@ li {
   text-decoration: none;
   list-style: none;
 }
+a {
+  color: #f4f5f7;
+}
 .nav-link {
   font-size: 1rem;
 }
@@ -49,4 +52,10 @@ li {
 }
 .project-info {
   width: 70%;
+}
+.about-me {
+  background-color: black;
+  background-image: url("Images/about-me-background.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
 }

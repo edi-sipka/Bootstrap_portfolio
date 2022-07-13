@@ -56,7 +56,7 @@ CHECK THIS LINK [portfolio-website]()
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-thanks:
+thanks: @summyalena for contributing to this project.
 
 ## Show your support
 
