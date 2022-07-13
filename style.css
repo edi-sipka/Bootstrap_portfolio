@@ -14,9 +14,7 @@ h3,
 h4 {
   letter-spacing: 0.5rem;
 }
-img {
-  width: 80%;
-}
+
 section {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -31,17 +29,21 @@ a {
 .nav-link {
   font-size: 1rem;
 }
+
 #main {
   background-color: black;
   background-image: url("Images/background.svg");
   background-repeat: no-repeat;
   background-position-x: 100%;
+  width: 100%;
+  height: 40rem;
 }
 #social-color {
   color: #fff;
 }
 .main-text {
   color: #f55800;
+  font-size: 3rem;
 }
 .subtext {
   color: #fff;
