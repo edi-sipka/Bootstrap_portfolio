@@ -15,7 +15,7 @@ h4 {
   letter-spacing: 0.5rem;
 }
 img {
-  width: 100%;
+  width: 80%;
 }
 section {
   padding-top: 5rem;
@@ -46,4 +46,7 @@ li {
 .paragraph {
   color: #f4f5f7;
   width: 30%;
+}
+.project-info {
+  width: 70%;
 }
