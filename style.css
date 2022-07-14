@@ -61,3 +61,11 @@ a {
   background-repeat: no-repeat;
   background-position-x: 100%;
 }
+
+@media  screen and (max-width:680px) {
+  
+}
+
+@media screen and (max-width:980px) {
+  
+}
