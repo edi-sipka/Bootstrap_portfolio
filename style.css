@@ -8,6 +8,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.main{
+  width: 100vw;
+  height: auto;
+}
+
+.mainwrap{
+  width: 100%;
+  height: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -26,6 +36,11 @@ li {
 a {
   color: #f4f5f7;
 }
+
+.navbar {
+  width: 100%;
+}
+
 .nav-link {
   font-size: 1rem;
 }
@@ -112,10 +127,42 @@ color: white;
   width: 100%;
 }
 
-@media  screen and (max-width:680px) {
-  
+@media  screen and (max-width:576px) {
+  .main {
+    width: 100vw;
+    height: auto;
+  }
 }
 
-@media screen and (max-width:980px) {
-  
+@media screen and (max-width:768px) {
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+  .mainwrap{
+    width: 100%;
+    height: 100%;
+  }
+
+  .stories{
+     width: 100%;
+     height: auto;
+  }
+
+  #img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .images {
+   display: flex;
+   flex-direction: column;
+  }
+}
+
+@media screen and (max-width:992px){
+  .main {
+    width: 100vw;
+    height: auto;
+  }
 }
