@@ -39,7 +39,7 @@ a {
   height: 40rem;
 }
 #social-color {
-  color: #fff;
+  color: gray;
 }
 .icons {
   font-size: 1.4rem;
@@ -63,6 +63,53 @@ a {
   background-image: url("Images/about-me-background.svg");
   background-repeat: no-repeat;
   background-position-x: 100%;
+}
+
+
+.form-control{
+  border: none;
+}
+
+.contact-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  width: 80%;
+}
+
+.text-field {
+  border:none;
+  border-bottom: 1px solid lightgray;
+}
+
+.name {
+  display: flex;
+  gap: 30px;
+}
+
+.message-field{
+  width: 85%;
+  height: 130px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #fbf8f7 ;
+}
+
+.btn {
+color: white;
+}
+
+.border {
+  width: 100%;
+  height: 1px;
+  color: #dfe1e6;
+}
+
+.foot {
+  height: 5%;
+  width: 100%;
 }
 
 @media  screen and (max-width:680px) {

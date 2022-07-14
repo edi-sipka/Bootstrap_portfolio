@@ -211,19 +211,64 @@
             </div>
     </section> 
 
-    <section class="contact-form">
-       <div class="contact">
-        <div class="contact-hold">
+    <section class="contact-form mx-5" >
+       <div class="contact d-flex mx-5">
+        
           <div class="contact-text">
-            <p>I'm interested for </p>
+            <p>I'm always interested in hearing about new projects, so if you'd have one, you can get in touch with me</p>
           </div>
-          <div class="form-check mb-3">
-              <textarea id="" name="" rows="5" class="form-control"></textarea>
+          <form
+          class="form-control"
+          action="https://formspree.io/f/mzboleyl"
+          method="post"
+        > <div class="name d-flex m-2">
+          <input
+            placeholder="Full Name"
+            class="text-field"
+            type="text"
+            name="name"
+            maxlength="30"
+            required
+          />
+          <input
+            placeholder="Email Address"
+            class="text-field"
+            type="email"
+            name="email"
+            required
+          />
           </div>
-
-          </div>
+          <textarea
+            class="message-field"
+            placeholder="Enter text here"
+            name="message"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Get In Touch</button>
+        </form>
         </div>
        </div>
+    </section>
+    <div class="border"></div>
+    <section class="foot">
+          <div class="footSocial">
+            <ul id="social-color" class="social-media d-flex justify-content-center">
+              <li class="social-icons  mx-2">
+                <i class="bi bi-github"></i>
+              </li>
+              <li class="social-icons mx-2"><i class="bi bi-linkedin"></i></li>
+              <li class="social-icons mx-2">
+                <i class="bi bi-medium"></i>
+              </li>
+              <li class="social-icons mx-2">
+                <i class="bi bi-twitter"></i>
+              </li>
+              <li class="social-icons mx-2">
+                <i class="bi bi-slack"></i>
+              </li>
+            </ul>
+          </div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
