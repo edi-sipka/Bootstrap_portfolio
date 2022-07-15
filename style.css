@@ -1,0 +1,225 @@
+/* font-family: 'Inter', sans-serif; 
+ Main color: color: #F55800; 
+ Second color: #F4F5F7;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800&display=swap");
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  width: 100vw;
+  height: auto;
+}
+
+.mainwrap {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.5rem;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: #f4f5f7;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+#main {
+  background-color: black;
+  background-image: url("Images/background.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  width: 100%;
+  height: 40rem;
+}
+#social-color {
+  color: gray;
+}
+.icons {
+  font-size: 1.4rem;
+}
+.main-text {
+  color: #f55800;
+  font-size: 2.8rem;
+}
+.subtext {
+  color: #fff;
+}
+.paragraph {
+  color: #f4f5f7;
+  width: 30%;
+}
+.btn {
+  background-color: #f55800;
+}
+.about-me {
+  background-color: black;
+  background-image: url("Images/about-me-background.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+.form-control {
+  border: none;
+}
+
+.contact-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  width: 80%;
+}
+
+.text-field {
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.name {
+  display: flex;
+  gap: 30px;
+}
+
+.message-field {
+  width: 85%;
+  height: 130px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #fbf8f7;
+}
+
+.btn {
+  color: white;
+}
+
+.border {
+  width: 100%;
+  height: 1px;
+  color: #dfe1e6;
+}
+
+.foot {
+  height: 5%;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+  .mainwrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .stories {
+    width: 100%;
+    height: auto;
+  }
+
+  #img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 100%;
+  }
+  #main {
+    width: 28rem;
+    height: 60rem;
+    background-position-y: 30rem;
+  }
+  .main-text {
+    width: 60%;
+  }
+  .subtext {
+    width: 60%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  .social-media {
+    display: none;
+  }
+
+  img {
+    width: 80%;
+  }
+  #photo-section {
+    width: 100%;
+  }
+  .project-title {
+    width: 200%;
+  }
+  .project-info {
+    width: 180%;
+  }
+
+  .btn {
+    width: 80%;
+  }
+  .about-me {
+    background-position-y: 100rem;
+  }
+  .about-me-text {
+    margin-left: 4rem;
+  }
+  .about-me-subtext {
+    margin-left: 4rem;
+  }
+  .list {
+    margin-left: 5rem;
+  }
+}
