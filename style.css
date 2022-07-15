@@ -3,17 +3,23 @@
  Second color: #F4F5F7;
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800&display=swap");
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Inter", sans-serif;
 }
 
-.main{
+.main {
   width: 100vw;
   height: auto;
 }
 
-.mainwrap{
+.mainwrap {
   width: 100%;
   height: 100%;
 }
@@ -80,8 +86,7 @@ a {
   background-position-x: 100%;
 }
 
-
-.form-control{
+.form-control {
   border: none;
 }
 
@@ -94,7 +99,7 @@ a {
 }
 
 .text-field {
-  border:none;
+  border: none;
   border-bottom: 1px solid lightgray;
 }
 
@@ -103,17 +108,17 @@ a {
   gap: 30px;
 }
 
-.message-field{
+.message-field {
   width: 85%;
   height: 130px;
   margin-top: 20px;
   border: none;
   outline: none;
-  background-color: #fbf8f7 ;
+  background-color: #fbf8f7;
 }
 
 .btn {
-color: white;
+  color: white;
 }
 
 .border {
@@ -127,42 +132,94 @@ color: white;
   width: 100%;
 }
 
-@media  screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .main {
     width: 100vw;
     height: auto;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .main {
     width: 100vw;
     height: auto;
   }
-  .mainwrap{
+  .mainwrap {
     width: 100%;
     height: 100%;
   }
 
-  .stories{
-     width: 100%;
-     height: auto;
+  .stories {
+    width: 100%;
+    height: auto;
   }
 
-  #img{
+  #img {
     width: 100%;
     height: 100%;
   }
 
   .images {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width: 992px) {
   .main {
     width: 100vw;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 100%;
+  }
+  #main {
+    width: 28rem;
+    height: 60rem;
+    background-position-y: 30rem;
+  }
+  .main-text {
+    width: 60%;
+  }
+  .subtext {
+    width: 60%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  .social-media {
+    display: none;
+  }
+
+  img {
+    width: 80%;
+  }
+  #photo-section {
+    width: 100%;
+  }
+  .project-title {
+    width: 200%;
+  }
+  .project-info {
+    width: 180%;
+  }
+
+  .btn {
+    width: 80%;
+  }
+  .about-me {
+    background-position-y: 100rem;
+  }
+  .about-me-text {
+    margin-left: 4rem;
+  }
+  .about-me-subtext {
+    margin-left: 4rem;
+  }
+  .list {
+    margin-left: 5rem;
   }
 }

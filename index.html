@@ -25,7 +25,7 @@
       <div class="mainwrap">
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand m-2" href="#">Logo</a>
+        <a class="navbar-brand m-2 logo" href="#">Logo</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -94,26 +94,27 @@
     </div>
 
     <section class="works m-5">
-      <h2 class="text mt-5 pb-5">My Recent Works</h2>
+      <h2 class="text mt-5 pb-5 main-work">My Recent Works</h2>
       <div class="row" id="stories">
         <div class="col-6 mr-10" id="img">
           <img src="/Images/card1.svg" alt="image of portfolio work" />
         </div>
         <div class="col-6 mt-10">
-          <h4 class="project-title">Multi-Post-Stories</h4>
+          <h4 class="project-title mt-2">Multi-Post-Stories</h4>
           <p class="project-info">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text ever
             since the 1500s, when an unknown printer took a standard dummy text.
           </p>
           <div class="row g-2">
-            <ul class="list-group list-group-horizontal g-2 ">
+            <ul class="list-group list-group-horizontal g-2 lan-group">
               <li class="list-group-item me-3 ">Css</li>
               <li class="list-group-item me-3">Html</li>
               <li class="list-group-item me-3">Bootstrap</li>
               <li class="list-group-item">Ruby</li>
             </ul>
-            <button type="button" class="btn col-2 mt-5 btn-primary">
+            <button type="button" class="btn col-2 mt-5 btn-primary" data-bs-toggle="modal"
+            data-bs-target="#Modal">
               See Project
             </button>
           </div>
@@ -128,10 +129,22 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard
             </p>
-            <ul class="d-flex">
-              <li class="li me-4 p-2 border border-warning">html</li>
-              <li class="li me-4 p-2 border border-warning">bootstrap</li>
-              <li class="li me-4 p-2 border border-warning">Ruby</li>
+            <ul class="list-unstyled d-flex me-2 mt-2">
+              <li class="me-1 bars">
+                <h4>
+                  <span class="badge bg-primary">html</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">bootstrap</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">ruby</span>
+                </h4>
+              </li>
             </ul>
           </div>
         </div>
@@ -143,10 +156,22 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard
             </p>
-            <ul class="d-flex">
-              <li class="li me-4 p-2 border border-warning">html</li>
-              <li class="li me-4 p-2 border border-warning">bootstrap</li>
-              <li class="li me-4 p-2 border border-warning">Ruby</li>
+            <ul class="list-unstyled d-flex me-2 mt-2 bar">
+              <li class="me-1 bar">
+                <h4>
+                  <span class="badge bg-primary">html</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">bootstrap</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">ruby</span>
+                </h4>
+              </li>
             </ul>
           </div>
         </div>
@@ -158,10 +183,22 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard
             </p>
-            <ul class="d-flex">
-              <li class="li me-4 p-2 border border-warning">html</li>
-              <li class="li me-4 p-2 border border-warning">bootstrap</li>
-              <li class="li me-4 p-2 border border-warning">Ruby</li>
+            <ul class="list-unstyled d-flex me-2 mt-2">
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">html</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">bootstrap</span>
+                </h4>
+              </li>
+              <li class="me-1">
+                <h4>
+                  <span class="badge bg-primary">ruby</span>
+                </h4>
+              </li>
             </ul>
           </div>
         </div>
@@ -175,16 +212,17 @@
           <div class="col-6">
             <h2 class="about-me-text text-light pt-5">About me</h2>
             <p class="about-me-subtext text-light">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <button type="button" class="btn col-3 mt-5 btn-primary">
+            <button type="button" class="btn col-3 mt-5 mx-5 btn-primary" data-bs-toggle="modal"
+            data-bs-target="#Modal">
               Get My Resume
             </button>
           </div>
         </div>
       </div> 
       <hr class="text-white m-5" />
-      <div class="language text-white d-flex justify-content-around">
+      <div class=" text-light d-flex d-sm-flex align-items-sm-start justify-content-around">
               
-                <ul class="list-unstyled">
+                <ul class="list-unstyled list">
                   <h4 class="text-light">Language</h4>
                   <li>Javascript</a></li>
               <li>Ruby</li>
@@ -193,7 +231,7 @@
                   
                 </ul>
               
-                <ul class="list-unstyled ">
+                <ul class="list-unstyled list ">
                   <h4 class="text-light">Frameworks</h4>
                   <li>Bootstrap</li>
                   <li>Ruby on Rails</li>
@@ -202,7 +240,7 @@
                   <li>Selenium</li>
                 </ul>
              
-                <ul class="list-unstyled">
+                <ul class="list-unstyled list">
                   <h4  class="text-light">Skills</h4>
                   <li>Codekit</li>
                   <li>Github</li>
@@ -214,7 +252,7 @@
     </section> 
 
     <section class="contact-form mx-5" >
-       <div class="contact d-flex mx-5">
+       <div class="contact d-flex mx-5 .flex-sm-column  justify-content-center  justify-content-md-between">
         
           <div class="contact-text">
             <p>I'm always interested in hearing about new projects, so if you'd have one, you can get in touch with me</p>
@@ -247,7 +285,8 @@
             maxlength="500"
             required
           ></textarea>
-          <button type="submit" class="btn">Get In Touch</button>
+          <button type="submit" class="btn" data-bs-toggle="modal"
+          data-bs-target="#Modal">Get In Touch</button>
         </form>
         </div>
        </div>
@@ -272,6 +311,55 @@
             </ul>
           </div>
     </section>
+<div
+    class="modal fade"
+    id="Modal"
+    tabindex="-1"
+    aria-labelledby="ModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel">
+            Thank you for your support
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-toggle="modal"
+                data-bs-target="#Modal"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+              <img
+                src="Images/card1.svg"
+                alt="model"
+                width="300"
+              />
+            </div>
+            <div class="col-md-4">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning text-white" >
+            See Live
+          </button>
+          <button type="button" class="btn btn-warning text-white">
+            See Source
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
  
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
